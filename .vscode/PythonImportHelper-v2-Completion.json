@@ -1,0 +1,1065 @@
+[
+    {
+        "label": "Server",
+        "importPath": "ldap3",
+        "description": "ldap3",
+        "isExtraImport": true,
+        "detail": "ldap3",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "ldap3",
+        "description": "ldap3",
+        "isExtraImport": true,
+        "detail": "ldap3",
+        "documentation": {}
+    },
+    {
+        "label": "ALL",
+        "importPath": "ldap3",
+        "description": "ldap3",
+        "isExtraImport": true,
+        "detail": "ldap3",
+        "documentation": {}
+    },
+    {
+        "label": "SUBTREE",
+        "importPath": "ldap3",
+        "description": "ldap3",
+        "isExtraImport": true,
+        "detail": "ldap3",
+        "documentation": {}
+    },
+    {
+        "label": "Server",
+        "importPath": "ldap3",
+        "description": "ldap3",
+        "isExtraImport": true,
+        "detail": "ldap3",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "ldap3",
+        "description": "ldap3",
+        "isExtraImport": true,
+        "detail": "ldap3",
+        "documentation": {}
+    },
+    {
+        "label": "ALL",
+        "importPath": "ldap3",
+        "description": "ldap3",
+        "isExtraImport": true,
+        "detail": "ldap3",
+        "documentation": {}
+    },
+    {
+        "label": "SUBTREE",
+        "importPath": "ldap3",
+        "description": "ldap3",
+        "isExtraImport": true,
+        "detail": "ldap3",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "models,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "models.",
+        "description": "models.",
+        "detail": "models.",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "routes,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "routes.",
+        "description": "routes.",
+        "detail": "routes.",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "get_hardware_dict_remote",
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "isExtraImport": true,
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "test_remote_connection_detailed",
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "isExtraImport": true,
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "conectar_simple",
+        "importPath": "simple",
+        "description": "simple",
+        "isExtraImport": true,
+        "detail": "simple",
+        "documentation": {}
+    },
+    {
+        "label": "inventario_completo",
+        "kind": 2,
+        "importPath": "acces_prop",
+        "description": "acces_prop",
+        "peekOfCode": "def inventario_completo():\n    # Configuración LDAP\n    server_name = 'dc3.cimex.com.cu'\n    domain_name = 'cimex.com.cu'\n    user_name = 'admsilenierpr'\n    password = 'admin0124*'\n    ou_busqueda = 'OU=SI-PC,OU=SI-Sucursal Sancti Spíritus,OU=Domain Computers,DC=cimex,DC=com,DC=cu'\n    try:\n        # Conexión LDAP\n        user_dn = f'{user_name}@{domain_name}'",
+        "detail": "acces_prop",
+        "documentation": {}
+    },
+    {
+        "label": "conectar_simple",
+        "kind": 2,
+        "importPath": "cmds",
+        "description": "cmds",
+        "peekOfCode": "def conectar_simple(pc_remota, unidad=\"D:\"):\n    \"\"\"\n    Conexión simple usando el dominio = nombre de PC\n    \"\"\"\n    print(f\"🔍 Conectando a {pc_remota}...\")\n    print(f\"👤 Usuario: {pc_remota}\\\\{USUARIO}\")\n    print(f\"🔑 Dominio: {pc_remota} (mismo nombre de PC)\")\n    # Comando PowerShell optimizado - MÉTODO RÁPIDO\n    comando = f'''\n$secpasswd = ConvertTo-SecureString \"{CONTRASEÑA}\" -AsPlainText -Force",
+        "detail": "cmds",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "cmds",
+        "description": "cmds",
+        "peekOfCode": "def main():\n    if len(sys.argv) < 2:\n        print(\"Uso: python script.py <nombre_pc> [unidad]\")\n        print(\"Ejemplo: python script.py SIW-INF-ANGEL D:\")\n        return\n    pc_remota = sys.argv[1].upper()\n    unidad = sys.argv[2] if len(sys.argv) > 2 else \"D:\"\n    if not unidad.endswith(\":\"):\n        unidad = unidad + \":\"\n    print(f\"🖥️  CONEXIÓN REMOTA - LISTAR CARPETAS\")",
+        "detail": "cmds",
+        "documentation": {}
+    },
+    {
+        "label": "USUARIO",
+        "kind": 5,
+        "importPath": "cmds",
+        "description": "cmds",
+        "peekOfCode": "USUARIO = \"administrador\"\nCONTRASEÑA = \"mcet100*vc\"\ndef conectar_simple(pc_remota, unidad=\"D:\"):\n    \"\"\"\n    Conexión simple usando el dominio = nombre de PC\n    \"\"\"\n    print(f\"🔍 Conectando a {pc_remota}...\")\n    print(f\"👤 Usuario: {pc_remota}\\\\{USUARIO}\")\n    print(f\"🔑 Dominio: {pc_remota} (mismo nombre de PC)\")\n    # Comando PowerShell optimizado - MÉTODO RÁPIDO",
+        "detail": "cmds",
+        "documentation": {}
+    },
+    {
+        "label": "CONTRASEÑA",
+        "kind": 5,
+        "importPath": "cmds",
+        "description": "cmds",
+        "peekOfCode": "CONTRASEÑA = \"mcet100*vc\"\ndef conectar_simple(pc_remota, unidad=\"D:\"):\n    \"\"\"\n    Conexión simple usando el dominio = nombre de PC\n    \"\"\"\n    print(f\"🔍 Conectando a {pc_remota}...\")\n    print(f\"👤 Usuario: {pc_remota}\\\\{USUARIO}\")\n    print(f\"🔑 Dominio: {pc_remota} (mismo nombre de PC)\")\n    # Comando PowerShell optimizado - MÉTODO RÁPIDO\n    comando = f'''",
+        "detail": "cmds",
+        "documentation": {}
+    },
+    {
+        "label": "$secpasswd",
+        "kind": 5,
+        "importPath": "cmds",
+        "description": "cmds",
+        "peekOfCode": "$secpasswd = ConvertTo-SecureString \"{CONTRASEÑA}\" -AsPlainText -Force\n$cred = New-Object System.Management.Automation.PSCredential(\"{pc_remota}\\\\{USUARIO}\", $secpasswd)\ntry {{\n    Write-Host \"🔍 Buscando carpetas en {unidad} de {pc_remota}...\" -ForegroundColor Yellow\n    # MÉTODO 1: Usar Invoke-WmiMethod con comando DIR (más rápido)\n    $command = \"cmd.exe /c dir {unidad}\\\\ /AD /B\"\n    $process = Invoke-WmiMethod -Class Win32_Process -Name Create -ArgumentList $command -ComputerName {pc_remota} -Credential $cred\n    if ($process.ReturnValue -eq 0) {{\n        Write-Host \"✅ Comando ejecutado exitosamente\" -ForegroundColor Green\n        Write-Host \"💡 Revisa el administrador de tareas en la PC remota para ver el resultado\" -ForegroundColor Yellow",
+        "detail": "cmds",
+        "documentation": {}
+    },
+    {
+        "label": "$cred",
+        "kind": 5,
+        "importPath": "cmds",
+        "description": "cmds",
+        "peekOfCode": "$cred = New-Object System.Management.Automation.PSCredential(\"{pc_remota}\\\\{USUARIO}\", $secpasswd)\ntry {{\n    Write-Host \"🔍 Buscando carpetas en {unidad} de {pc_remota}...\" -ForegroundColor Yellow\n    # MÉTODO 1: Usar Invoke-WmiMethod con comando DIR (más rápido)\n    $command = \"cmd.exe /c dir {unidad}\\\\ /AD /B\"\n    $process = Invoke-WmiMethod -Class Win32_Process -Name Create -ArgumentList $command -ComputerName {pc_remota} -Credential $cred\n    if ($process.ReturnValue -eq 0) {{\n        Write-Host \"✅ Comando ejecutado exitosamente\" -ForegroundColor Green\n        Write-Host \"💡 Revisa el administrador de tareas en la PC remota para ver el resultado\" -ForegroundColor Yellow\n    }} else {{",
+        "detail": "cmds",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "def get_user(db:Session, user_id:int):\n    return db.query(models.User).filter(models.User.id == user_id).first()\ndef get_user_by_email(db:Session, email:str):\n    return db.query(models.User).filter(models.User.email == email).first()\ndef get_users(db:Session, skip:int =0, limit:int = 100):\n    return db.query(models.User).offset(skip).limit(limit).all()\ndef create_user(db:Session, user:schemas.UserCreate):\n    fake_hashed_password =user.password + 'hay que hashear la contrase;a perro'\n    db_user = models.User(email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_email",
+        "kind": 2,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "def get_user_by_email(db:Session, email:str):\n    return db.query(models.User).filter(models.User.email == email).first()\ndef get_users(db:Session, skip:int =0, limit:int = 100):\n    return db.query(models.User).offset(skip).limit(limit).all()\ndef create_user(db:Session, user:schemas.UserCreate):\n    fake_hashed_password =user.password + 'hay que hashear la contrase;a perro'\n    db_user = models.User(email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_users",
+        "kind": 2,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "def get_users(db:Session, skip:int =0, limit:int = 100):\n    return db.query(models.User).offset(skip).limit(limit).all()\ndef create_user(db:Session, user:schemas.UserCreate):\n    fake_hashed_password =user.password + 'hay que hashear la contrase;a perro'\n    db_user = models.User(email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user\ndef get_items(db:Session, skip:int =0, limit:int = 100):",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "def create_user(db:Session, user:schemas.UserCreate):\n    fake_hashed_password =user.password + 'hay que hashear la contrase;a perro'\n    db_user = models.User(email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user\ndef get_items(db:Session, skip:int =0, limit:int = 100):\n    return db.query(models.Item).offset(skip).limit(limit).all()\ndef create_user_item(db:Session, item:schemas.ItemCreate, user_id:int):",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_items",
+        "kind": 2,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "def get_items(db:Session, skip:int =0, limit:int = 100):\n    return db.query(models.Item).offset(skip).limit(limit).all()\ndef create_user_item(db:Session, item:schemas.ItemCreate, user_id:int):\n    db_item = models.Item(**item.model_dump(), owner_id=user_id)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_item(db:Session, item_id:int, item: schemas.ItemCreate):\n    db_item = db.query(models.Item).filter(models.Item.id == item_id).first()",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_user_item",
+        "kind": 2,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "def create_user_item(db:Session, item:schemas.ItemCreate, user_id:int):\n    db_item = models.Item(**item.model_dump(), owner_id=user_id)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_item(db:Session, item_id:int, item: schemas.ItemCreate):\n    db_item = db.query(models.Item).filter(models.Item.id == item_id).first()\n    if db_item is None:\n        return None",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "update_item",
+        "kind": 2,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "def update_item(db:Session, item_id:int, item: schemas.ItemCreate):\n    db_item = db.query(models.Item).filter(models.Item.id == item_id).first()\n    if db_item is None:\n        return None\n    #actualizar\n    for key, value in item.model_dump().items():\n        setattr(db_item, key, value)\n    db.commit()\n    db.refresh(db_item)\n    return db_item",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "delete_item",
+        "kind": 2,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "def delete_item(db:Session, item_id:int):\n    db_item = db.query(models.Item).filter(models.Item.id == item_id).first()\n    if db_item is None:\n        return None\n    db.delete(db_item)\n    db.commit()\n    return db_item",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URl",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URl =  'postgresql://postgres:1234@127.0.0.1/fastapi'\nengine = create_engine(\n    SQLALCHEMY_DATABASE_URl    \n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "engine = create_engine(\n    SQLALCHEMY_DATABASE_URl    \n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "run_powershell_command_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def run_powershell_command_remote(command: str, computer_name: str, username: str = DEFAULT_USERNAME, password: str = DEFAULT_PASSWORD, timeout: int = 30) -> str:\n    \"\"\"Versión corregida que fuerza autenticación NTLM\"\"\"\n    try:\n        ps_command = f\"\"\"\n        $secpasswd = ConvertTo-SecureString \"{password}\" -AsPlainText -Force\n        $cred = New-Object System.Management.Automation.PSCredential (\"{computer_name}\\\\{username}\", $secpasswd)\n        # CONFIGURACIÓN CLAVE: Forzar autenticación NTLM y agregar a TrustedHosts\n        Set-Item WSMan:\\\\localhost\\\\Client\\\\TrustedHosts -Value \"{computer_name}\" -Force -ErrorAction SilentlyContinue\n        try {{\n            # Forzar autenticación NTLM explícitamente",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "run_powershell_command_local",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def run_powershell_command_local(command: str, timeout: int = 30) -> str:\n    \"\"\"Ejecuta un comando de PowerShell localmente\"\"\"\n    try:\n        result = subprocess.run(\n            ['powershell', '-Command', command],\n            capture_output=True, \n            text=True, \n            timeout=timeout,\n            encoding='utf-8'\n        )",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_timestamp",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_timestamp() -> str:\n    \"\"\"Obtiene la fecha y hora actual\"\"\"\n    return run_powershell_command_local('Get-Date -Format \"yyyy-MM-dd HH:mm:ss\"')\ndef safe_json_parse(result: str, context: str = \"\") -> Dict[str, Any]:\n    \"\"\"Parsea de forma segura el resultado JSON y maneja errores\"\"\"\n    if result.startswith(\"Error:\"):\n        return {\"error\": result}\n    try:\n        return json.loads(result) if result.strip() else {}\n    except json.JSONDecodeError as e:",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "safe_json_parse",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def safe_json_parse(result: str, context: str = \"\") -> Dict[str, Any]:\n    \"\"\"Parsea de forma segura el resultado JSON y maneja errores\"\"\"\n    if result.startswith(\"Error:\"):\n        return {\"error\": result}\n    try:\n        return json.loads(result) if result.strip() else {}\n    except json.JSONDecodeError as e:\n        return {\"error\": f\"JSON decode error in {context}: {e}\", \"raw_output\": result[:200]}\ndef get_computer_system_info_remote(computer_name: str) -> Dict[str, Any]:\n    \"\"\"Obtiene información del sistema computacional remoto\"\"\"",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_computer_system_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_computer_system_info_remote(computer_name: str) -> Dict[str, Any]:\n    \"\"\"Obtiene información del sistema computacional remoto\"\"\"\n    command = \"\"\"\n    Get-WmiObject -Class Win32_ComputerSystem | Select-Object Manufacturer, Model, TotalPhysicalMemory, NumberOfProcessors, SystemType | ConvertTo-Json -Depth 2\n    \"\"\"\n    result = run_powershell_command_remote(command, computer_name)\n    data = safe_json_parse(result, \"computer_system\")\n    if 'error' not in data and 'TotalPhysicalMemory' in data and data['TotalPhysicalMemory']:\n        data['TotalPhysicalMemoryGB'] = round(data['TotalPhysicalMemory'] / (1024**3), 2)\n    return data",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_bios_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_bios_info_remote(computer_name: str) -> Dict[str, Any]:\n    \"\"\"Obtiene información del BIOS remoto\"\"\"\n    command = \"\"\"\n    $bios = Get-WmiObject -Class Win32_BIOS\n    @{\n        SerialNumber = if($bios.SerialNumber -and $bios.SerialNumber -ne 'Default string') { $bios.SerialNumber } else { 'No disponible' }\n        Manufacturer = $bios.Manufacturer\n        Version = $bios.Version\n        SMBIOSBIOSVersion = $bios.SMBIOSBIOSVersion\n    } | ConvertTo-Json",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_processor_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_processor_info_remote(computer_name: str) -> List[Dict[str, Any]]:\n    \"\"\"Obtiene información de los procesadores remotos\"\"\"\n    command = \"\"\"\n    Get-WmiObject -Class Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed, SocketDesignation | ConvertTo-Json\n    \"\"\"\n    result = run_powershell_command_remote(command, computer_name)\n    data = safe_json_parse(result, \"processors\")\n    if 'error' not in data:\n        processors = [data] if isinstance(data, dict) else data\n        for cpu in processors:",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_memory_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_memory_info_remote(computer_name: str) -> List[Dict[str, Any]]:\n    \"\"\"Obtiene información de la memoria RAM remota\"\"\"\n    command = \"\"\"\n    $memoryTypes = @{\n        0 = 'Unknown'; 1 = 'Other'; 2 = 'DRAM'; 3 = 'Synchronous DRAM'; 4 = 'Cache DRAM';\n        5 = 'EDO'; 6 = 'EDRAM'; 7 = 'VRAM'; 8 = 'SRAM'; 9 = 'RAM'; 10 = 'ROM';\n        11 = 'Flash'; 12 = 'EEPROM'; 13 = 'FEPROM'; 14 = 'EPROM'; 15 = 'CDRAM';\n        16 = '3DRAM'; 17 = 'SDRAM'; 18 = 'SGRAM'; 19 = 'RDRAM'; 20 = 'DDR';\n        21 = 'DDR2'; 22 = 'DDR2 FB-DIMM'; 24 = 'DDR3'; 26 = 'DDR4'; 34 = 'DDR5'\n    }",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_disk_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_disk_info_remote(computer_name: str) -> List[Dict[str, Any]]:\n    \"\"\"Obtiene información de los discos duros remotos\"\"\"\n    command = \"\"\"\n    Get-WmiObject -Class Win32_DiskDrive | Where-Object { $_.InterfaceType -ne 'USB' } | \n    Select-Object @{\n        Name='SizeGB'; Expression={[math]::Round($_.Size/1GB, 2)}\n    }, Model, InterfaceType, SerialNumber, Partitions | ConvertTo-Json\n    \"\"\"\n    result = run_powershell_command_remote(command, computer_name)\n    data = safe_json_parse(result, \"disks\")",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_network_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_network_info_remote(computer_name: str) -> List[Dict[str, Any]]:\n    \"\"\"Obtiene información de red remota\"\"\"\n    command = \"\"\"\n    Get-WmiObject -Class Win32_NetworkAdapterConfiguration | Where-Object { $_.IPEnabled -eq $true } |\n    Select-Object Description, IPAddress, IPSubnet, DefaultIPGateway, MACAddress, DNSServerSearchOrder | ConvertTo-Json\n    \"\"\"\n    result = run_powershell_command_remote(command, computer_name)\n    data = safe_json_parse(result, \"network\")\n    if 'error' not in data:\n        adapters = [data] if isinstance(data, dict) else data",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_operating_system_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_operating_system_info_remote(computer_name: str) -> Dict[str, Any]:\n    \"\"\"Obtiene información del sistema operativo remoto\"\"\"\n    command = \"\"\"\n    Get-WmiObject -Class Win32_OperatingSystem | Select-Object Caption, Version, OSArchitecture, BuildNumber, SerialNumber | ConvertTo-Json\n    \"\"\"\n    result = run_powershell_command_remote(command, computer_name)\n    return safe_json_parse(result, \"operating_system\")\ndef get_baseboard_info_remote(computer_name: str) -> Dict[str, Any]:\n    \"\"\"Obtiene información de la motherboard remota\"\"\"\n    command = \"\"\"",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_baseboard_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_baseboard_info_remote(computer_name: str) -> Dict[str, Any]:\n    \"\"\"Obtiene información de la motherboard remota\"\"\"\n    command = \"\"\"\n    $board = Get-WmiObject -Class Win32_BaseBoard\n    @{\n        Manufacturer = $board.Manufacturer\n        Product = $board.Product\n        SerialNumber = if($board.SerialNumber -and $board.SerialNumber -ne 'Default string' -and $board.SerialNumber -ne 'To be filled by O.E.M.') { $board.SerialNumber } else { 'No disponible' }\n        Version = $board.Version\n    } | ConvertTo-Json",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_chassis_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_chassis_info_remote(computer_name: str) -> Dict[str, Any]:\n    \"\"\"Obtiene información del chasis remoto\"\"\"\n    command = \"\"\"\n    $chassisTypes = @{\n        1 = 'Other'; 2 = 'Unknown'; 3 = 'Desktop'; 4 = 'Low Profile Desktop'; \n        5 = 'Pizza Box'; 6 = 'Mini Tower'; 7 = 'Tower'; 8 = 'Portable';\n        9 = 'Laptop'; 10 = 'Notebook'; 11 = 'Hand Held'; 12 = 'Docking Station';\n        13 = 'All in One'; 14 = 'Sub Notebook'; 15 = 'Space-Saving'\n    }\n    $chassis = Get-WmiObject -Class Win32_SystemEnclosure",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_graphics_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_graphics_info_remote(computer_name: str) -> List[Dict[str, Any]]:\n    \"\"\"Obtiene información de tarjetas gráficas remotas\"\"\"\n    command = \"\"\"\n    Get-WmiObject -Class Win32_VideoController | Where-Object { $_.Name -notlike '*Remote*' } |\n    Select-Object Name, AdapterRAM, DriverVersion, VideoProcessor | ConvertTo-Json\n    \"\"\"\n    result = run_powershell_command_remote(command, computer_name)\n    data = safe_json_parse(result, \"graphics\")\n    if 'error' not in data:\n        graphics = [data] if isinstance(data, dict) else data",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "test_remote_connection_detailed",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def test_remote_connection_detailed(computer_name: str) -> tuple[bool, str, Dict[str, Any]]:\n    \"\"\"\n    Prueba la conexión remota y devuelve detalles específicos del error\n    Returns: (éxito, mensaje, detalles_diagnóstico)\n    \"\"\"\n    diagnostic_info = {\n        \"computer_name\": computer_name,\n        \"credentials_used\": f\"{computer_name}\\\\{DEFAULT_USERNAME}\",  # Una sola barra\n        \"tests_performed\": [],\n        \"specific_errors\": []",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "collect_all_hardware_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def collect_all_hardware_info_remote(pc_name: str) -> Dict[str, Any]:\n    \"\"\"\n    Función principal que recolecta toda la información de hardware de forma remota\n    \"\"\"\n    logger.info(f\"🔍 Iniciando inventario remoto para: {pc_name}\")\n    logger.info(f\"🔑 Usando credenciales: {pc_name}\\\\{DEFAULT_USERNAME}\")  # Una sola barra\n    inventory_data: Dict[str, Any] = {\n        \"pc_name\": pc_name,\n        \"version\": \"2.0-remote\",\n        \"timestamp\": get_timestamp(),",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_hardware_dict_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_hardware_dict_remote(pc_name: str) -> Dict[str, Any]:\n    \"\"\"Retorna la información de hardware remoto como diccionario\"\"\"\n    return collect_all_hardware_info_remote(pc_name)\ndef get_hardware_info_remote(pc_name: str) -> str:\n    \"\"\"Retorna la información de hardware remoto en formato JSON\"\"\"\n    inventory_data = collect_all_hardware_info_remote(pc_name)\n    return json.dumps(inventory_data, indent=2, ensure_ascii=False)\ndef diagnostico_completo_winrm(computer_name: str):\n    \"\"\"Diagnóstico completo de conectividad WinRM para un equipo específico\"\"\"\n    print(f\"🔍 DIAGNÓSTICO COMPLETO PARA: {computer_name}\")",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "get_hardware_info_remote",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def get_hardware_info_remote(pc_name: str) -> str:\n    \"\"\"Retorna la información de hardware remoto en formato JSON\"\"\"\n    inventory_data = collect_all_hardware_info_remote(pc_name)\n    return json.dumps(inventory_data, indent=2, ensure_ascii=False)\ndef diagnostico_completo_winrm(computer_name: str):\n    \"\"\"Diagnóstico completo de conectividad WinRM para un equipo específico\"\"\"\n    print(f\"🔍 DIAGNÓSTICO COMPLETO PARA: {computer_name}\")\n    print(\"=\" * 60)\n    # 1. Verificar ping\n    print(\"\\n1. 🏓 Verificando conectividad de red...\")",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "diagnostico_completo_winrm",
+        "kind": 2,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "def diagnostico_completo_winrm(computer_name: str):\n    \"\"\"Diagnóstico completo de conectividad WinRM para un equipo específico\"\"\"\n    print(f\"🔍 DIAGNÓSTICO COMPLETO PARA: {computer_name}\")\n    print(\"=\" * 60)\n    # 1. Verificar ping\n    print(\"\\n1. 🏓 Verificando conectividad de red...\")\n    try:\n        ping_result = subprocess.run(\n            ['ping', '-n', '3', '-w', '3000', computer_name],\n            capture_output=True,",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Credenciales por defecto para administrador local\nDEFAULT_USERNAME = \"administrador\"\nDEFAULT_PASSWORD = \"mcet100*vc\"\ndef run_powershell_command_remote(command: str, computer_name: str, username: str = DEFAULT_USERNAME, password: str = DEFAULT_PASSWORD, timeout: int = 30) -> str:\n    \"\"\"Versión corregida que fuerza autenticación NTLM\"\"\"\n    try:\n        ps_command = f\"\"\"\n        $secpasswd = ConvertTo-SecureString \"{password}\" -AsPlainText -Force\n        $cred = New-Object System.Management.Automation.PSCredential (\"{computer_name}\\\\{username}\", $secpasswd)",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_USERNAME",
+        "kind": 5,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "DEFAULT_USERNAME = \"administrador\"\nDEFAULT_PASSWORD = \"mcet100*vc\"\ndef run_powershell_command_remote(command: str, computer_name: str, username: str = DEFAULT_USERNAME, password: str = DEFAULT_PASSWORD, timeout: int = 30) -> str:\n    \"\"\"Versión corregida que fuerza autenticación NTLM\"\"\"\n    try:\n        ps_command = f\"\"\"\n        $secpasswd = ConvertTo-SecureString \"{password}\" -AsPlainText -Force\n        $cred = New-Object System.Management.Automation.PSCredential (\"{computer_name}\\\\{username}\", $secpasswd)\n        # CONFIGURACIÓN CLAVE: Forzar autenticación NTLM y agregar a TrustedHosts\n        Set-Item WSMan:\\\\localhost\\\\Client\\\\TrustedHosts -Value \"{computer_name}\" -Force -ErrorAction SilentlyContinue",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PASSWORD",
+        "kind": 5,
+        "importPath": "hardware_inventory_enhanced",
+        "description": "hardware_inventory_enhanced",
+        "peekOfCode": "DEFAULT_PASSWORD = \"mcet100*vc\"\ndef run_powershell_command_remote(command: str, computer_name: str, username: str = DEFAULT_USERNAME, password: str = DEFAULT_PASSWORD, timeout: int = 30) -> str:\n    \"\"\"Versión corregida que fuerza autenticación NTLM\"\"\"\n    try:\n        ps_command = f\"\"\"\n        $secpasswd = ConvertTo-SecureString \"{password}\" -AsPlainText -Force\n        $cred = New-Object System.Management.Automation.PSCredential (\"{computer_name}\\\\{username}\", $secpasswd)\n        # CONFIGURACIÓN CLAVE: Forzar autenticación NTLM y agregar a TrustedHosts\n        Set-Item WSMan:\\\\localhost\\\\Client\\\\TrustedHosts -Value \"{computer_name}\" -Force -ErrorAction SilentlyContinue\n        try {{",
+        "detail": "hardware_inventory_enhanced",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\napp.include_router(routes.router)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    email = Column(String, unique=True, index=True)\n    hashed_password = Column(String)\n    is_active = Column(Boolean, default=False)\n    created_at = Column(DateTime(timezone=True), server_default=func.now())\n    #relacion con tabla items \\\n    items = relationship(\"Item\", back_populates=\"owner\")\nclass Item(Base):",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Item(Base):\n    __tablename__ = \"items\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    description = Column(Text)\n    # ese users es el nombre de la tabla asquerosa esa \n    owner_id = Column(Integer, ForeignKey(\"users.id\"))\n    owner = relationship(\"User\", back_populates='items')",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "server_name",
+        "kind": 5,
+        "importPath": "pyy",
+        "description": "pyy",
+        "peekOfCode": "server_name = 'dc3.cimex.com.cu'\ndomain_name = 'cimex.com.cu'\nuser_name = 'admsilenierpr'\npassword = 'admin0124*'\n# Ruta EXACTA de la OU SI-PC\nou_busqueda = 'OU=SI-PC,OU=SI-Sucursal Sancti Spíritus,OU=Domain Computers,DC=cimex,DC=com,DC=cu'\ntry:\n    user_dn = f'{user_name}@{domain_name}'\n    server = Server(server_name, get_info=ALL)\n    conn = Connection(server, user=user_dn, password=password, auto_bind=True)",
+        "detail": "pyy",
+        "documentation": {}
+    },
+    {
+        "label": "domain_name",
+        "kind": 5,
+        "importPath": "pyy",
+        "description": "pyy",
+        "peekOfCode": "domain_name = 'cimex.com.cu'\nuser_name = 'admsilenierpr'\npassword = 'admin0124*'\n# Ruta EXACTA de la OU SI-PC\nou_busqueda = 'OU=SI-PC,OU=SI-Sucursal Sancti Spíritus,OU=Domain Computers,DC=cimex,DC=com,DC=cu'\ntry:\n    user_dn = f'{user_name}@{domain_name}'\n    server = Server(server_name, get_info=ALL)\n    conn = Connection(server, user=user_dn, password=password, auto_bind=True)\n    print(f\"🔍 Buscando computadoras en:\")",
+        "detail": "pyy",
+        "documentation": {}
+    },
+    {
+        "label": "user_name",
+        "kind": 5,
+        "importPath": "pyy",
+        "description": "pyy",
+        "peekOfCode": "user_name = 'admsilenierpr'\npassword = 'admin0124*'\n# Ruta EXACTA de la OU SI-PC\nou_busqueda = 'OU=SI-PC,OU=SI-Sucursal Sancti Spíritus,OU=Domain Computers,DC=cimex,DC=com,DC=cu'\ntry:\n    user_dn = f'{user_name}@{domain_name}'\n    server = Server(server_name, get_info=ALL)\n    conn = Connection(server, user=user_dn, password=password, auto_bind=True)\n    print(f\"🔍 Buscando computadoras en:\")\n    print(f\"📍 {ou_busqueda}\")",
+        "detail": "pyy",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "pyy",
+        "description": "pyy",
+        "peekOfCode": "password = 'admin0124*'\n# Ruta EXACTA de la OU SI-PC\nou_busqueda = 'OU=SI-PC,OU=SI-Sucursal Sancti Spíritus,OU=Domain Computers,DC=cimex,DC=com,DC=cu'\ntry:\n    user_dn = f'{user_name}@{domain_name}'\n    server = Server(server_name, get_info=ALL)\n    conn = Connection(server, user=user_dn, password=password, auto_bind=True)\n    print(f\"🔍 Buscando computadoras en:\")\n    print(f\"📍 {ou_busqueda}\")\n    print(\"-\" * 50)",
+        "detail": "pyy",
+        "documentation": {}
+    },
+    {
+        "label": "ou_busqueda",
+        "kind": 5,
+        "importPath": "pyy",
+        "description": "pyy",
+        "peekOfCode": "ou_busqueda = 'OU=SI-PC,OU=SI-Sucursal Sancti Spíritus,OU=Domain Computers,DC=cimex,DC=com,DC=cu'\ntry:\n    user_dn = f'{user_name}@{domain_name}'\n    server = Server(server_name, get_info=ALL)\n    conn = Connection(server, user=user_dn, password=password, auto_bind=True)\n    print(f\"🔍 Buscando computadoras en:\")\n    print(f\"📍 {ou_busqueda}\")\n    print(\"-\" * 50)\n    # Buscar computadoras dentro de la OU SI-PC\n    conn.search(ou_busqueda, '(objectClass=computer)',",
+        "detail": "pyy",
+        "documentation": {}
+    },
+    {
+        "label": "read_users",
+        "kind": 2,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):\n    users = crud.get_users(db, skip=skip, limit=limit)\n    return users\n@router.get(\"/users/{user_id}\", response_model=schemas.User)\ndef read_user(user_id: int, db: Session = Depends(get_db)):\n    db_user = crud.get_user(db, user_id=user_id)\n    if db_user is None:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return db_user\n@router.post(\"/users/\", response_model=schemas.User, status_code=status.HTTP_201_CREATED)",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "read_user",
+        "kind": 2,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "def read_user(user_id: int, db: Session = Depends(get_db)):\n    db_user = crud.get_user(db, user_id=user_id)\n    if db_user is None:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return db_user\n@router.post(\"/users/\", response_model=schemas.User, status_code=status.HTTP_201_CREATED)\ndef create_new_user(user: schemas.UserCreate, db: Session = Depends(get_db)):\n    db_user = crud.get_user_by_email(db, email=user.email)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Email already registered\")",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "create_new_user",
+        "kind": 2,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "def create_new_user(user: schemas.UserCreate, db: Session = Depends(get_db)):\n    db_user = crud.get_user_by_email(db, email=user.email)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    return crud.create_user(db=db, user=user)\n@router.get(\"/items/\", response_model=List[schemas.Item])\ndef read_items(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):\n    items = crud.get_items(db, skip=skip, limit=limit)\n    return items\n@router.post(\"/users/{user_id}/items/\", response_model=schemas.Item, status_code=status.HTTP_201_CREATED)",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "read_items",
+        "kind": 2,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "def read_items(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):\n    items = crud.get_items(db, skip=skip, limit=limit)\n    return items\n@router.post(\"/users/{user_id}/items/\", response_model=schemas.Item, status_code=status.HTTP_201_CREATED)\ndef create_item_for_user(\n    user_id: int, \n    item: schemas.ItemCreate, \n    db: Session = Depends(get_db)\n):\n    # Verificar si el usuario existe",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "create_item_for_user",
+        "kind": 2,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "def create_item_for_user(\n    user_id: int, \n    item: schemas.ItemCreate, \n    db: Session = Depends(get_db)\n):\n    # Verificar si el usuario existe\n    db_user = crud.get_user(db, user_id=user_id)\n    if not db_user:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return crud.create_user_item(db=db, item=item, user_id=user_id)",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "update_existing_item",
+        "kind": 2,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "def update_existing_item(\n    item_id: int, \n    item: schemas.ItemCreate, \n    db: Session = Depends(get_db)\n):\n    db_item = crud.update_item(db=db, item_id=item_id, item=item)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    return db_item\n@router.delete(\"/items/{item_id}\", status_code=status.HTTP_204_NO_CONTENT)",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "delete_existing_item",
+        "kind": 2,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "def delete_existing_item(item_id: int, db: Session = Depends(get_db)):\n    db_item = crud.delete_item(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Item not found\")\n    return None",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/users/\", response_model=List[schemas.User])\ndef read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):\n    users = crud.get_users(db, skip=skip, limit=limit)\n    return users\n@router.get(\"/users/{user_id}\", response_model=schemas.User)\ndef read_user(user_id: int, db: Session = Depends(get_db)):\n    db_user = crud.get_user(db, user_id=user_id)\n    if db_user is None:\n        raise HTTPException(status_code=404, detail=\"User not found\")",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "ItemBase",
+        "kind": 6,
+        "importPath": "schemas",
+        "description": "schemas",
+        "peekOfCode": "class ItemBase(BaseModel):\n    title :str\n    description: Optional[str] = None\nclass ItemCreate(ItemBase):\n    pass\nclass Item(ItemBase):\n    id:int\n    owner_id :int\n    class Config:\n        orm_mode=True",
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ItemCreate",
+        "kind": 6,
+        "importPath": "schemas",
+        "description": "schemas",
+        "peekOfCode": "class ItemCreate(ItemBase):\n    pass\nclass Item(ItemBase):\n    id:int\n    owner_id :int\n    class Config:\n        orm_mode=True\nclass UserBase(BaseModel):\n    email:EmailStr\nclass UserCreate(UserBase):",
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "schemas",
+        "description": "schemas",
+        "peekOfCode": "class Item(ItemBase):\n    id:int\n    owner_id :int\n    class Config:\n        orm_mode=True\nclass UserBase(BaseModel):\n    email:EmailStr\nclass UserCreate(UserBase):\n    password:str\nclass User(UserBase):",
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "schemas",
+        "description": "schemas",
+        "peekOfCode": "class UserBase(BaseModel):\n    email:EmailStr\nclass UserCreate(UserBase):\n    password:str\nclass User(UserBase):\n    id:int\n    is_active:bool\n    created_at:datetime\n    items: List[Item] = []\n    class Config:",
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "schemas",
+        "description": "schemas",
+        "peekOfCode": "class UserCreate(UserBase):\n    password:str\nclass User(UserBase):\n    id:int\n    is_active:bool\n    created_at:datetime\n    items: List[Item] = []\n    class Config:\n        orm_mode=True",
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "schemas",
+        "description": "schemas",
+        "peekOfCode": "class User(UserBase):\n    id:int\n    is_active:bool\n    created_at:datetime\n    items: List[Item] = []\n    class Config:\n        orm_mode=True",
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "conectar_simple",
+        "kind": 2,
+        "importPath": "simple",
+        "description": "simple",
+        "peekOfCode": "def conectar_simple(pc_remota):\n    \"\"\"\n    Conexión simple usando el dominio = nombre de PC\n    \"\"\"\n    print(f\"🔍 Conectando a {pc_remota}...\")\n    print(f\"👤 Usuario: {pc_remota}\\\\{USUARIO}\")\n    print(f\"🔑 Dominio: {pc_remota} (mismo nombre de PC)\")\n    # Comando PowerShell CORREGIDO - versión simplificada y funcional\n    comando = f'''\n$secpasswd = ConvertTo-SecureString \"{CONTRASEÑA}\" -AsPlainText -Force",
+        "detail": "simple",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_ping",
+        "kind": 2,
+        "importPath": "simple",
+        "description": "simple",
+        "peekOfCode": "def verificar_ping(pc_remota):\n    \"\"\"Verifica conectividad básica\"\"\"\n    print(f\"🏓 Verificando conectividad con {pc_remota}...\")\n    try:\n        resultado = subprocess.run(\n            ['ping', '-n', '2', '-w', '2000', pc_remota],\n            capture_output=True,\n            text=True,\n            timeout=8\n        )",
+        "detail": "simple",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "simple",
+        "description": "simple",
+        "peekOfCode": "def main():\n    \"\"\"\n    Función principal simplificada\n    \"\"\"\n    if len(sys.argv) < 2:\n        print(\"Uso: python conexion_corregida.py <nombre_pc> [unidad]\")\n        return\n    pc_remota = sys.argv[1].upper()\n    unidad = sys.argv[2] if len(sys.argv) > 2 else \"D:\"\n    # Asegurar que la unidad tenga el formato correcto",
+        "detail": "simple",
+        "documentation": {}
+    },
+    {
+        "label": "USUARIO",
+        "kind": 5,
+        "importPath": "simple",
+        "description": "simple",
+        "peekOfCode": "USUARIO = \"administrador\"\nCONTRASEÑA = \"mcet100*vc\"\ndef conectar_simple(pc_remota):\n    \"\"\"\n    Conexión simple usando el dominio = nombre de PC\n    \"\"\"\n    print(f\"🔍 Conectando a {pc_remota}...\")\n    print(f\"👤 Usuario: {pc_remota}\\\\{USUARIO}\")\n    print(f\"🔑 Dominio: {pc_remota} (mismo nombre de PC)\")\n    # Comando PowerShell CORREGIDO - versión simplificada y funcional",
+        "detail": "simple",
+        "documentation": {}
+    },
+    {
+        "label": "CONTRASEÑA",
+        "kind": 5,
+        "importPath": "simple",
+        "description": "simple",
+        "peekOfCode": "CONTRASEÑA = \"mcet100*vc\"\ndef conectar_simple(pc_remota):\n    \"\"\"\n    Conexión simple usando el dominio = nombre de PC\n    \"\"\"\n    print(f\"🔍 Conectando a {pc_remota}...\")\n    print(f\"👤 Usuario: {pc_remota}\\\\{USUARIO}\")\n    print(f\"🔑 Dominio: {pc_remota} (mismo nombre de PC)\")\n    # Comando PowerShell CORREGIDO - versión simplificada y funcional\n    comando = f'''",
+        "detail": "simple",
+        "documentation": {}
+    },
+    {
+        "label": "$secpasswd",
+        "kind": 5,
+        "importPath": "simple",
+        "description": "simple",
+        "peekOfCode": "$secpasswd = ConvertTo-SecureString \"{CONTRASEÑA}\" -AsPlainText -Force\n$cred = New-Object System.Management.Automation.PSCredential(\"{pc_remota}\\\\{USUARIO}\", $secpasswd)\ntry {{\n    # Método alternativo: Usar WMI que es más tolerante\n    Write-Host \"`n Conectando con WMI...\" -ForegroundColor Yellow\n    try {{\n        Get-WmiObject -Class Win32_ComputerSystem -ComputerName {pc_remota} -Credential $cred -ErrorAction Stop | Out-Null\n        Write-Host \" Conexión WMI exitosa\" -ForegroundColor Green\n        # Listar unidades via WMI\n        $unidades = Get-WmiObject -Class Win32_LogicalDisk -ComputerName {pc_remota} -Credential $cred -Filter \"DriveType=3\"",
+        "detail": "simple",
+        "documentation": {}
+    },
+    {
+        "label": "$cred",
+        "kind": 5,
+        "importPath": "simple",
+        "description": "simple",
+        "peekOfCode": "$cred = New-Object System.Management.Automation.PSCredential(\"{pc_remota}\\\\{USUARIO}\", $secpasswd)\ntry {{\n    # Método alternativo: Usar WMI que es más tolerante\n    Write-Host \"`n Conectando con WMI...\" -ForegroundColor Yellow\n    try {{\n        Get-WmiObject -Class Win32_ComputerSystem -ComputerName {pc_remota} -Credential $cred -ErrorAction Stop | Out-Null\n        Write-Host \" Conexión WMI exitosa\" -ForegroundColor Green\n        # Listar unidades via WMI\n        $unidades = Get-WmiObject -Class Win32_LogicalDisk -ComputerName {pc_remota} -Credential $cred -Filter \"DriveType=3\"\n        Write-Host \"`n Unidades de disco:\" -ForegroundColor Cyan",
+        "detail": "simple",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "wmi_integration",
+        "description": "wmi_integration",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nif __name__ == \"__main__\":\n    from ldap3 import Server, Connection, ALL, SUBTREE\n    def get_pcs_from_ldap_and_inventory():\n        # Configuración LDAP (usando tus datos)\n        server_name = 'dc3.cimex.com.cu'\n        domain_name = 'cimex.com.cu'\n        user_name = 'admsilenierpr'\n        password = 'admin0124*'\n        ou_busqueda = 'OU=SI-PC,OU=SI-Sucursal Sancti Spíritus,OU=Domain Computers,DC=cimex,DC=com,DC=cu'",
+        "detail": "wmi_integration",
+        "documentation": {}
+    }
+]
