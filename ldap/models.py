@@ -25,8 +25,11 @@ class EquipoLDAP:
             return fecha_string
         elif isinstance(fecha_string, str):
             try:
+                # Limpiar el string (remover timezone y milisegundos)
                 fecha_limpia = fecha_string.split('+')[0].split('.')[0]
+                # Convertir a datetime
                 return datetime.strptime(fecha_limpia, "%Y-%m-%d %H:%M:%S")
-            except:
+            except Exception as e:
+                print(f"⚠️ Error convirtiendo fecha: {fecha_string} - {e}")
                 return None
         return None

@@ -1,3 +1,4 @@
+from ldap.models import EquipoLDAP
 from ldap3 import Server, Connection, ALL, SUBTREE
 from config.settings import settings
 from utils.logger import setup_logger
@@ -11,7 +12,8 @@ class LDAPClient:
             'domain_name': settings.LDAP_DOMAIN,
             'user_name': settings.LDAP_USERNAME,
             'password': settings.LDAP_PASSWORD,
-            'ou_busqueda': settings.LDAP_OU
+            'ou_equipos': settings.LDAP_OU_EQUIPOS,
+            'ou_usuarios': settings.LDAP_OU_USUARIOS
         }
         self.conn = None
         
@@ -42,14 +44,20 @@ class LDAPClient:
                     return []
             
             self.conn.search(
-                self.config['ou_busqueda'], 
+                self.config['ou_equipos'], 
                 '(objectClass=computer)', 
                 attributes=['cn', 'operatingSystem', 'lastLogon'], 
                 search_scope=SUBTREE
             )
             
             logger.info(f"🔍 Búsqueda LDAP completada. {len(self.conn.entries)} equipos encontrados")
-            return self.conn.entries
+
+            equipos = []
+            for equipo_ldap in self.conn.entries:
+                equipo = EquipoLDAP.from_ldap_entry(equipo_ldap)
+                equipos.append(equipo)
+
+            return equipos
             
         except Exception as e:
             logger.error(f"❌ Error en búsqueda LDAP: {e}")

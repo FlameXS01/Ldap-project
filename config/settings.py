@@ -15,7 +15,8 @@ class Settings:
         self.LDAP_DOMAIN = os.getenv('LDAP_DOMAIN')
         self.LDAP_USERNAME = os.getenv('LDAP_USERNAME')
         self.LDAP_PASSWORD = os.getenv('LDAP_PASSWORD')
-        self.LDAP_OU = os.getenv('LDAP_OU')
+        self.LDAP_OU_EQUIPOS = os.getenv('LDAP_OU_EQUIPOS')
+        self.LDAP_OU_USUARIOS = os.getenv('LDAP_OU_USUARIOS')
         
         # Logging Configuration
         self.LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
@@ -32,7 +33,7 @@ class Settings:
         """Valida que todas las configuraciones requeridas estén presentes"""
         required_vars = [
             'LDAP_SERVER', 'LDAP_DOMAIN', 'LDAP_USERNAME', 
-            'LDAP_PASSWORD', 'LDAP_OU'
+            'LDAP_PASSWORD', 'LDAP_OU_USUARIOS', 'LDAP_OU_EQUIPOS'
         ]
         
         missing_vars = []
