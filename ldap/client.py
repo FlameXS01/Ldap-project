@@ -1,9 +1,12 @@
-from ldap.models import EquipoLDAP
+from ldap.models import EquipoLDAP, UsuarioLDAP
 from ldap3 import Server, Connection, ALL, SUBTREE
 from config.settings import settings
 from utils.logger import setup_logger
 
+
 logger = setup_logger(__name__)
+
+
 
 class LDAPClient:
     def __init__(self):
@@ -37,7 +40,7 @@ class LDAPClient:
             return False
     
     def obtener_equipos(self):
-        """Obtiene todos los equipos de la OU configurada"""
+        """Obtiene todos los equipos"""
         try:
             if not self.conn or not self.conn.bound:
                 if not self.conectar():
@@ -49,9 +52,6 @@ class LDAPClient:
                 attributes=['cn', 'operatingSystem', 'lastLogon'], 
                 search_scope=SUBTREE
             )
-            
-            logger.info(f"🔍 Búsqueda LDAP completada. {len(self.conn.entries)} equipos encontrados")
-
             equipos = []
             for equipo_ldap in self.conn.entries:
                 equipo = EquipoLDAP.from_ldap_entry(equipo_ldap)
@@ -63,8 +63,37 @@ class LDAPClient:
             logger.error(f"❌ Error en búsqueda LDAP: {e}")
             return []
     
+    def obtener_usuarios(self):
+        """Obtiene todos los usuarios"""
+        try:
+            if not self.conn or not self.conn.bound:
+
+                if not self.conectar():
+                    return []
+            
+            self.conn.search(
+                self.config['ou_usuarios'], 
+                '(objectClass=user)', 
+                attributes=['cn', 'sAMAccountName', 'lastLogon', 'mail', 'department', 'title'], 
+                search_scope=SUBTREE
+            )
+            
+            logger.info(f"🔍 Búsqueda LDAP de usuarios completada. {len(self.conn.entries)} usuarios encontrados")
+
+            usuarios = []
+            for usuario_ldap in self.conn.entries:
+                usuario = UsuarioLDAP.from_ldap_entry(usuario_ldap)
+                usuarios.append(usuario)
+
+            return usuarios
+            
+        except Exception as e:
+            logger.error(f"❌ Error en búsqueda LDAP de usuarios: {e}")
+            return []
+
     def cerrar_conexion(self):
         """Cierra la conexión LDAP"""
         if self.conn:
             self.conn.unbind()
             logger.info("🔒 Conexión LDAP cerrada")
+

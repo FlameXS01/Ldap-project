@@ -1,5 +1,6 @@
 import sys
 from services.inventory_service import InventoryService
+from services.user_service import UserService
 from utils.logger import setup_logger
 
 # Logger para el módulo principal
@@ -9,20 +10,27 @@ def main():
     """Función principal de la aplicación"""
 
     inventory_service = InventoryService()
+    user_service = UserService()
 
     def salir():
         print("\n👋 Saliendo del sistema...")
         logger.info("Aplicación cerrada por el usuario")
         sys.exit(0)
     
-    # Definir las opciones como métodos de inventory_service
+    def env_sms():
+        print("\n" + "=" * 60)
+        pc_name = input('Diga el nombre de la pc a enviar el sms: ')
+        sms = input('Entre el mensaje a enviar: ')
+        iss=inventory_service.envio_forzado(pc_name, sms)
+
+
     opciones = {
-        1: inventory_service.generar_inventario,  # lastLogon con filtro
-        2: inventory_service.listar_ordenadores,     # todas las PC
-        3: inventory_service.listar_ordenadores,            # por implementar
-        4: inventory_service.listar_ordenadores,            # por implementar
-        5: inventory_service.listar_ordenadores,            # por implementar
-        0: salir                                                    # función local para salir
+        1: inventory_service.activas_en_fecha,  # lastLogon con filtro
+        2: inventory_service.listar_ordenadores,# todas las PC
+        3: user_service.activos_en_fecha,       # por implementar
+        4: user_service.listar_usuarios,  
+        5: env_sms,                             # por implementar
+        0: salir                                # función local para salir
     }
 
 
@@ -31,13 +39,13 @@ def main():
 
     while con:
         print("\n" + "=" * 60)
-        print("🎯 SISTEMA DE INVENTARIO LDAP")
+        print("🎯 SISTEMA DE LDAP")
         print("=" * 60)
-        print("Seleccionar 1 para Last Logon (equipos activos)")
+        print("Seleccionar 1 para Last Logon (equipos activos en fecha)")
         print("Seleccionar 2 para todas las PC")
-        print("Seleccionar 3 para (próximamente)")
-        print("Seleccionar 4 para (próximamente)")
-        print("Seleccionar 5 para (próximamente)")
+        print("Seleccionar 3 para Last Logon Usuarios en fecha")
+        print("Seleccionar 4 para todos los usuarios")
+        print("Seleccionar 5 para mandar un sms")
         print("Seleccionar 0 para salir")
         print("=" * 60)
 

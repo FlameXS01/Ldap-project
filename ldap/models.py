@@ -11,25 +11,47 @@ class EquipoLDAP:
     @classmethod
     def from_ldap_entry(cls, entry):
         """Crea un objeto EquipoLDAP desde una entrada LDAP"""
-        last_logon = cls._parse_last_logon(entry.lastLogon.value)
+        last_logon = _parse_last_logon(entry.lastLogon.value)
         return cls(
             nombre=entry.cn.value,
             sistema_operativo=getattr(entry, 'operatingSystem', None),
             last_logon=last_logon
         )
     
-    @staticmethod
-    def _parse_last_logon(fecha_string):
-        """Convierte el string de lastLogon a datetime"""
-        if isinstance(fecha_string, datetime):
-            return fecha_string
-        elif isinstance(fecha_string, str):
-            try:
+@dataclass
+class UsuarioLDAP:
+    nombre:str
+    usuario: str
+    last_logon: Optional[datetime]
+    mail: Optional[str]
+    department: Optional[str]
+    title: Optional[str]
+
+    @classmethod
+    def from_ldap_entry(cls, entry):
+        """Crea un objeto EquipoLDAP desde una entrada LDAP"""
+        last_logon = _parse_last_logon(entry.lastLogon.value)
+        return cls(
+            nombre=entry.cn.value,
+            usuario=entry.sAMAccountName.value,
+            last_logon=last_logon,
+            mail=entry.mail.value,
+            department=entry.department.value,
+            title=entry.title.value
+        )
+
+@staticmethod
+def _parse_last_logon(fecha_string):
+    """Convierte el string de lastLogon a datetime"""
+    if isinstance(fecha_string, datetime):
+        return fecha_string
+    elif isinstance(fecha_string, str):
+        try:
                 # Limpiar el string (remover timezone y milisegundos)
-                fecha_limpia = fecha_string.split('+')[0].split('.')[0]
+            fecha_limpia = fecha_string.split('+')[0].split('.')[0]
                 # Convertir a datetime
-                return datetime.strptime(fecha_limpia, "%Y-%m-%d %H:%M:%S")
-            except Exception as e:
-                print(f"⚠️ Error convirtiendo fecha: {fecha_string} - {e}")
-                return None
-        return None
+            return datetime.strptime(fecha_limpia, "%Y-%m-%d %H:%M:%S")
+        except Exception as e:
+            print(f"⚠️ Error convirtiendo fecha: {fecha_string} - {e}")
+            return None
+    return None
