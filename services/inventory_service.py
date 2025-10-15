@@ -4,6 +4,7 @@ from ldap.client import LDAPClient
 from ldap.models import EquipoLDAP
 from config.settings import settings
 from utils.logger import setup_logger
+from utils.data_process import cargar_equipos_desde_archivo
 from datetime import datetime
 
 from utils.remote_scripts import habilitar_servicios_remotos
@@ -213,77 +214,42 @@ class InventoryService:
             logger.error(f"💥 Error inesperado en PowerShell: {e}")
             return False
         
-    def enviar_mensaje_wmi(self, computadora: str, mensaje: str) -> bool:
-        """Envía mensaje usando WMI directamente - CORREGIDO"""
+    def _obtener_pc_listado(self) -> list[str]:
+        """
+        Purpose: return lista de pc
+        """
+        equipos = []
+
         try:
-            # Primero verificar si WMI está disponible
-            test_script = f'Get-WmiObject -Class Win32_ComputerSystem -ComputerName "{computadora}" -ErrorAction Stop'
-            test_result = subprocess.run(
-                ["powershell", "-Command", test_script],
-                capture_output=True,
-                text=True
-            )
-            
-            if test_result.returncode != 0:
-                logger.error(f"❌ WMI no disponible en {computadora}")
-                return False
-            
-            # ESCAPAR correctamente el mensaje para PowerShell
-            mensaje_escapado = mensaje.replace('"', '`"').replace("'", "`'")
-            
-            # Script PowerShell CORREGIDO
-            script_ps = f"""
-    try {{
-        $process = [WMIClass]\"\\\\{computadora}\\root\\cimv2:Win32_Process\"
-        $command = \"msg * `\"{mensaje_escapado}`\" /TIME:60\"
-        $result = $process.Create($command)
-        
-        if ($result.ReturnValue -eq 0) {{
-            Write-Output "SUCCESS"
-            exit 0
-        }} else {{
-            Write-Output "ERROR: Código $($result.ReturnValue)"
-            exit 1
-        }}
-    }} catch {{
-        Write-Output "ERROR: $($_.Exception.Message)"
-        exit 1
-    }}
-    """
-            
-            resultado = subprocess.run(
-                ["powershell", "-Command", script_ps],
-                capture_output=True,
-                text=True,
-                timeout=60
-            )
-            
-            print(f"DEBUG WMI - stdout: {resultado.stdout}")
-            print(f"DEBUG WMI - stderr: {resultado.stderr}")
-            print(f"DEBUG WMI - returncode: {resultado.returncode}")
-            
-            if resultado.returncode == 0:
-                logger.info(f"✅ Mensaje enviado via WMI a {computadora}")
-                return True
+            equipos_ldap = self.ldap_client.obtener_equipos()
+            if not equipos_ldap:
+                logger.warning("⚠️ No se encontraron equipos en LDAP")
+                return equipos
             else:
-                logger.error(f"❌ Error WMI: {resultado.stderr or resultado.stdout}")
-                return False
-                
-        except Exception as e:
-            logger.error(f"💥 Error WMI: {e}")
-            return False
-
-    def envio_forzado(self, computadora: str, mensaje: str):
-        try:
-            habilitar_servicios_remotos(computadora)
-
-            done = self.enviar_mensaje_netmsg(computadora, mensaje)
-            if not done:
-                done = self.enviar_mensaje_powershell(computadora, mensaje)
-            if not done:
-                done = self.enviar_mensaje_wmi(computadora, mensaje)
-            
-        except Exception as e:
-            raise e
+                for pc in equipos_ldap:
+                    equipos.append(pc.nombre)
+                print(equipos)
+                return equipos
         
+        except Exception as e:
+            logger.error(f"❌ Error generando inventario: {e}", exc_info=True)
+            return []
+        finally:
+            self.ldap_client.cerrar_conexion()
+    
+    def faltantes_por(self) -> list[str]:
+        """
+        Purpose: retorna las que no estan en la lista de data.
+        """
+        todos_equipos = self._obtener_pc_listado()
+        data = cargar_equipos_desde_archivo()
+        result = []
+
+        for pc in todos_equipos:
+            if pc not in data:
+                result.append(pc)
+                print(pc)
+                
+        return result
+
             

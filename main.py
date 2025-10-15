@@ -17,11 +17,7 @@ def main():
         logger.info("Aplicación cerrada por el usuario")
         sys.exit(0)
     
-    def env_sms():
-        print("\n" + "=" * 60)
-        pc_name = input('Diga el nombre de la pc a enviar el sms: ')
-        sms = input('Entre el mensaje a enviar: ')
-        iss=inventory_service.envio_forzado(pc_name, sms)
+    
 
 
     opciones = {
@@ -29,7 +25,7 @@ def main():
         2: inventory_service.listar_ordenadores,# todas las PC
         3: user_service.activos_en_fecha,       # por implementar
         4: user_service.listar_usuarios,  
-        5: env_sms,                             # por implementar
+        5: inventory_service.faltantes_por,# lista solo nombres
         0: salir                                # función local para salir
     }
 
@@ -45,7 +41,7 @@ def main():
         print("Seleccionar 2 para todas las PC")
         print("Seleccionar 3 para Last Logon Usuarios en fecha")
         print("Seleccionar 4 para todos los usuarios")
-        print("Seleccionar 5 para mandar un sms")
+        print("Seleccionar 5 obtener pc en lista")
         print("Seleccionar 0 para salir")
         print("=" * 60)
 
